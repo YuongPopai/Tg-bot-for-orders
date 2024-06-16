@@ -15,7 +15,6 @@
 
 Для работы проекта необходимо установить следующие параметры конфигурации:
 
-```python
 base_url = 'https://pay-test.raif.ru/api/sbp/v2/qrs/'
 secret_key = 'ВАШ_СЕКРЕТНЫЙ_КЛЮЧ'
 headers = {'Authorization': f'Bearer {secret_key}'}
@@ -41,9 +40,9 @@ delete_qr_request(url, body, headers): Удаление QR-кода.
 admins.csv: Файл содержит данные администраторов (tg-id и пароль).
 users.csv: Файл содержит данные пользователей (tg-id).
 
-### Пример работы бота доступен по ссылке
-https://youtu.be/j_S9NiEzHm4
 Запуск
 Для запуска бота используйте команду:
+python bot_logic.pyэ
 
-python bot_logic.py
+### Пример работы бота доступен по ссылке
+https://youtu.be/j_S9NiEzHm4
